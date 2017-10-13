@@ -1,0 +1,46 @@
+{
+  "name": "nodejsapp-thanhna",
+  "version": "0.0.1",
+  "description": "nodejsapp API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app && mongod"
+  },
+  "keywords": [
+    "nodejsapp",
+    "API",
+    "server"
+  ],
+  "dependencies": {
+    "async": "^2.5.0",
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "express-session": "^1.15.6",
+    "flash": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.11.14",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "author": "AkKe",
+  "license": "ISC"
+}
